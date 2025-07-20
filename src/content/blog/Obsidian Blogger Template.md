@@ -1,11 +1,11 @@
 ---
-title: Deploy Angular With Score
+title: blog
 subtitle: subtitle
-description: 
+description:
 publish: true
-created_date: (e="YYYY-MM-DD",t,r,i)=>{if(r&&!(0,dt.moment)(r,i).isValid())throw new O("Invalid reference date format, try specifying one with the argument 'reference_format'");let o;return typeof t=="string"?o=dt.moment.duration(t):typeof t=="number"&&(o=dt.moment.duration(t,"days")),(0,dt.moment)(r,i).add(o).format(e)}
+created_date: <% tp.date.now %>
 featured_image: URL
-slug: 
+slug:
 tags:
   - obsidian
   - AI
@@ -38,5 +38,5 @@ tags:                         # Optional: Categories/topics for the post
 <!-- Start writing your blog post content here -->
 
 
-okkkkkk
+
 ```

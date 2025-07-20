@@ -1,0 +1,10 @@
+{
+  "name": "blog",
+  "main": "src/pages/index.astro",
+  "compatibility_date": "2022-07-12",
+  "workers_dev": true,
+  "route": {
+    "pattern": "blog.cloudikeme.com",
+    "custom_domain": true
+  }
+}
