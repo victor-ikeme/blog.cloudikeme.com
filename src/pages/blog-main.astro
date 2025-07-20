@@ -24,8 +24,7 @@ const posts = (await getCollection('blog'))
 <!doctype html>
 <html lang="en">
     <head>
-        <BaseHead
-      title="Build Platforms Daily – Platform Engineering Insights" description="Explore practical insights, frameworks, and stories from the world of platform engineering, Internal Developer Platforms, and developer experience – by Victor Ikeme."/>
+        <BaseHead title="Blog - Ideas & Insights" description="Explore our collection of articles, ideas, insights, and everything in between." />
         <style>
             /* Ensure the body takes up at least the full viewport height */
             body {
@@ -116,10 +115,8 @@ const posts = (await getCollection('blog'))
         <Header />
         <main>
             <div class="blog-header">
-                <h1 class="blog-title">Build Platforms Daily</h1>
-                <p class="blog-description">
-                Actionable insights, frameworks, and hard-won lessons on building Internal Developer Platforms that actually work — from a product-thinking platform engineer.
-                </p>
+                <h1 class="blog-title">Ideas & Insights</h1>
+                <p class="blog-description">Explore our collection of articles, thoughts, and everything in between.</p>
             </div>
             {posts.length > 0 ? (
                 <div class="posts-grid">
@@ -134,7 +131,7 @@ const posts = (await getCollection('blog'))
                 </div>
             ) : (
                 <div class="no-posts">
-                    No articles yet — but good things are coming. Check back soon for insights that’ll help you build better platforms.
+                    No posts found. Check back soon!
                 </div>
             )}
         </main>

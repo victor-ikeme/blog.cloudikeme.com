@@ -1,0 +1,82 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+---
+
+<Layout
+  title="Platform Engineering Glossary"
+  description="A concise, practical glossary of essential platform engineering terms — curated by Victor Ikeme to help teams build better Internal Developer Platforms."
+  created_date={new Date()}
+>
+  <p>
+    Whether you're just starting in platform engineering or you're a seasoned infra/product hybrid, this glossary is here to demystify the core terms and concepts that matter. Curated by <strong>Victor Ikeme</strong>, this living document evolves as the platform engineering discipline grows.
+  </p>
+
+  <h2>Core Terms</h2>
+
+  <h3>Internal Developer Platform (IDP)</h3>
+  <p>
+    A set of tools, workflows, and self-service interfaces built and maintained by a platform team to accelerate software delivery across engineering teams. An IDP acts as an abstraction layer over infrastructure and DevOps complexity.
+  </p>
+
+  <h3>Platform Engineering</h3>
+  <p>
+    The discipline of designing, building, and maintaining internal platforms that optimize the developer experience and support scalable, reliable delivery of software.
+  </p>
+
+  <h3>Developer Experience (DevEx)</h3>
+  <p>
+    The overall experience a developer has with internal tools, services, documentation, and workflows. A key metric for measuring platform success and adoption.
+  </p>
+
+  <h3>Golden Path</h3>
+  <p>
+    A recommended, opinionated workflow that guides developers toward best practices while minimizing cognitive load and decision fatigue.
+  </p>
+
+  <h3>Platform as a Product</h3>
+  <p>
+    An approach to platform engineering where the internal platform is treated like a real product: with defined users (developers), user research, feedback loops, roadmap planning, and success metrics.
+  </p>
+
+  <h3>Self-Service</h3>
+  <p>
+    The ability for developers to perform common tasks (e.g. provisioning infrastructure, deploying services) without waiting on manual support from operations or platform teams.
+  </p>
+
+  <h3>Abstraction Layer</h3>
+  <p>
+    A layer built to hide infrastructure complexity and provide a simplified interface for developers — often implemented via APIs, CLIs, web portals, or GitOps workflows.
+  </p>
+
+  <h3>Platform Team</h3>
+  <p>
+    A dedicated engineering team responsible for building and operating the internal platform. Their customers are internal developers, and their success is measured by platform adoption, DevEx, and reliability.
+  </p>
+
+  <h2>Emerging Concepts</h2>
+
+  <h3>Backstage</h3>
+  <p>
+    An open-source platform developed by Spotify to build developer portals. Often used as the frontend for an IDP, providing discoverability, templates, and documentation in one place.
+  </p>
+
+  <h3>Scorecards</h3>
+  <p>
+    Tools that automatically evaluate services or teams against defined best practices or operational maturity — useful for driving continuous improvement across teams.
+  </p>
+
+  <h3>Platform API</h3>
+  <p>
+    A well-defined interface that exposes platform capabilities to developers and tooling. Enables automation, self-service, and integration with developer workflows.
+  </p>
+
+  <h3>Platform Maturity Model</h3>
+  <p>
+    A framework that defines the stages of platform evolution — from ad-hoc scripts and scattered tooling to a fully productized IDP. Useful for benchmarking progress and prioritizing investments.
+  </p>
+
+  <h2>Keep Learning</h2>
+  <p>
+    This glossary is a work in progress — just like the field of platform engineering itself. If there's a term you'd like to see added or clarified, feel free to reach out on <a href="https://github.com/victor-ikeme" target="_blank">GitHub</a> or drop a comment on one of the posts.
+  </p>
+</Layout>
